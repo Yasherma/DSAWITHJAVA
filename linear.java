@@ -6,22 +6,22 @@ class linear{
         int ans=lineraSearch(num,find);
         System.out.println(ans);
     }
-
-
        static int lineraSearch(int[] arr,int find){
             if(arr.length==0){
                 return -1;
             }
-            for(int element:arr){
-                if(element==find){
-                    return element;
-                }
+             for(int index=0;index<=arr.length;index++){
 
-            }
-            // for(int index=0;index<=arr.length;index++){
-            //     int element=arr[index];
+                int element=arr[index];
+                if(element==find)
+
+                return index;
+            // for(int element:arr){
+            //     if(element==find){
+            //         return element;
+                }
             return -1;
             
+     
         }
-   
     }
